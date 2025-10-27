@@ -3,7 +3,7 @@ import { useCurrentSimulation } from '@/publicodes-state'
 import { getComputedResults } from '@/publicodes-state/helpers/getComputedResults'
 import type { ComputedResults, Metric } from '@/publicodes-state/types'
 import { areArraysEqual } from '@/utils/areArraysEqual'
-import type { DottedName, NGCRuleNode } from '@incubateur-ademe/nosgestesclimat'
+import type { DottedName, NGCRuleNode } from '@abc-transitionbascarbone/tilt-simple-test-model'
 import type { EvaluatedNode, PublicodesExpression } from 'publicodes'
 import { useCallback, useEffect, useMemo, useRef } from 'react'
 

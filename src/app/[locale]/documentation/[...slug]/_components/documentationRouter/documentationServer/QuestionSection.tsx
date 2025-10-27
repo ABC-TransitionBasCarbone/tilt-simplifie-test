@@ -2,7 +2,7 @@ import MessageIcon from '@/components/icons/MessageIcon'
 import Trans from '@/components/translation/trans/TransServer'
 import Card from '@/design-system/layout/Card'
 import Markdown from '@/design-system/utils/Markdown'
-import type { NGCRule } from '@incubateur-ademe/nosgestesclimat'
+import type { NGCRule } from '@abc-transitionbascarbone/tilt-simple-test-model'
 
 export default function QuestionSection({
   rule,

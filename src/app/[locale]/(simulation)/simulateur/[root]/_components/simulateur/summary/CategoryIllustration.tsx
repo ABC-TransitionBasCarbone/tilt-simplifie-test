@@ -1,6 +1,6 @@
 'use client'
 
-import type { DottedName } from '@incubateur-ademe/nosgestesclimat'
+import type { DottedName } from '@abc-transitionbascarbone/tilt-simple-test-model'
 import Image from 'next/image'
 import { useMemo } from 'react'
 import { twMerge } from 'tailwind-merge'

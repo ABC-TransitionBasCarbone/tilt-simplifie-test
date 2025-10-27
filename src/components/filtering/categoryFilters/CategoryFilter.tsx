@@ -6,14 +6,13 @@ import { baseClassNames } from "@/design-system/buttons/Button"
 import {
   getBackgroundColor,
   getBackgroundLightColor,
-  getBorderColor,
   getBorderDarkColor,
-  getTextDarkColor,
+  getTextDarkColor
 } from '@/helpers/getCategoryColorClass'
 import { useClientTranslation } from '@/hooks/useClientTranslation'
 import { trackEvent } from '@/utils/analytics/trackEvent'
 import { encodeDottedNameAsURI } from '@/utils/format/encodeDottedNameAsURI'
-import type { DottedName } from '@incubateur-ademe/nosgestesclimat'
+import type { DottedName } from '@abc-transitionbascarbone/tilt-simple-test-model'
 import { useRouter } from 'next/navigation'
 import { twMerge } from 'tailwind-merge'
 

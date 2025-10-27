@@ -1,5 +1,5 @@
 import { getLinkToSimulateur } from '@/helpers/navigation/simulateurPages'
-import type { DottedName } from '@incubateur-ademe/nosgestesclimat'
+import type { DottedName } from '@abc-transitionbascarbone/tilt-simple-test-model'
 import { useRouter, useSearchParams } from 'next/navigation'
 import { useCallback } from 'react'
 import { useLocale } from './useLocale'

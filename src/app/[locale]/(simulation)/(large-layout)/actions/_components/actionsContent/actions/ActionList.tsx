@@ -12,7 +12,7 @@ import {
 } from '@/publicodes-state'
 import type { Action } from '@/publicodes-state/types'
 import { trackEvent } from '@/utils/analytics/trackEvent'
-import type { NGCRules } from '@incubateur-ademe/nosgestesclimat'
+import type { NGCRules } from '@abc-transitionbascarbone/tilt-simple-test-model'
 import { Fragment, useEffect, useRef, useState } from 'react'
 import ActionCard from './ActionCard'
 import ActionForm from './ActionForm'

@@ -12,10 +12,10 @@ import { PartnerProvider } from '@/contexts/partner/PartnerContext'
 import { getSupportedRegions } from '@/helpers/modelFetching/getSupportedRegions'
 import UserProvider from '@/publicodes-state/providers/userProvider/provider'
 import type { Simulation } from '@/publicodes-state/types'
+import type { DottedName } from '@abc-transitionbascarbone/tilt-simple-test-model'
+import rules from '@abc-transitionbascarbone/tilt-simple-test-model/public/co2-model.FR-lang.fr-opti.json'
+import migrationInstructions from '@abc-transitionbascarbone/tilt-simple-test-model/public/migration.json'
 import { faker } from '@faker-js/faker'
-import type { DottedName } from '@incubateur-ademe/nosgestesclimat'
-import rules from '@incubateur-ademe/nosgestesclimat/public/co2-model.FR-lang.fr-opti.json'
-import migrationInstructions from '@incubateur-ademe/nosgestesclimat/public/migration.json'
 import '@testing-library/jest-dom'
 import type { RenderOptions } from '@testing-library/react'
 import { render } from '@testing-library/react'
@@ -164,7 +164,7 @@ const TestWrapper = ({
 
   return (
     <>
-      {providers.prNumber && <PRNumberHook setPRNumber={() => {}} />}
+      {providers.prNumber && <PRNumberHook setPRNumber={() => { }} />}
       {wrapped}
     </>
   )

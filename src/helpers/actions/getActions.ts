@@ -3,11 +3,11 @@ import type { Action } from '@/publicodes-state/types'
 import { getCorrectedValue } from '@/utils/getCorrectedValue'
 import { sortBy } from '@/utils/sortBy'
 import type {
-  DottedName,
-  NGCRule,
-  NGCRuleNode,
-  NGCRules,
-} from '@incubateur-ademe/nosgestesclimat'
+    DottedName,
+    NGCRule,
+    NGCRuleNode,
+    NGCRules,
+} from '@abc-transitionbascarbone/tilt-simple-test-model'
 import type { EvaluatedNode, PublicodesExpression } from 'publicodes'
 import { filterIrrelevantActions } from './filterIrrelevantActions'
 

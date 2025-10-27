@@ -1,5 +1,5 @@
-import type { SupportedRegions } from '@incubateur-ademe/nosgestesclimat'
-import supportedRegions from '@incubateur-ademe/nosgestesclimat/public/supportedRegions.json'
+import type { SupportedRegions } from '@abc-transitionbascarbone/tilt-simple-test-model'
+import supportedRegions from '@abc-transitionbascarbone/tilt-simple-test-model/public/supportedRegions.json'
 
 /**
  * This function is used to get the supported regions. It can be called directly from a server component.

@@ -1,5 +1,5 @@
 import { SIMULATOR_PATH } from '@/constants/urls/paths'
-import type { DottedName } from '@incubateur-ademe/nosgestesclimat'
+import type { DottedName } from '@abc-transitionbascarbone/tilt-simple-test-model'
 
 type Props = {
   question?: DottedName

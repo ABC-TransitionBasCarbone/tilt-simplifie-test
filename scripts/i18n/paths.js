@@ -2,7 +2,7 @@
 	Simple module containing all paths implicated to the translation.
 */
 
-import utils from '@incubateur-ademe/nosgestesclimat-scripts/utils'
+import utils from '@abc-transitionbascarbone/tilt-simple-test-model-scripts/utils'
 import path from 'path'
 
 const localesDir = path.resolve('./src/locales')
@@ -31,3 +31,4 @@ const FAQ = Object.fromEntries(
 )
 
 export { FAQ, UI, localesDir, rulesTranslation, staticAnalysisFrRes }
+

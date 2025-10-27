@@ -1,5 +1,5 @@
 import { useCurrentSimulation, useFormState, useRule } from '@/publicodes-state'
-import type { Metrics } from '@incubateur-ademe/nosgestesclimat'
+import type { Metrics } from '@abc-transitionbascarbone/tilt-simple-test-model'
 import { useEffect, useRef, useState } from 'react'
 
 export function useGetDifference({ metric }: { metric: Metrics }): {

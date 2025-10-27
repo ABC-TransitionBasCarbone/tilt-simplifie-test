@@ -11,7 +11,7 @@ import {
 import { useClientTranslation } from '@/hooks/useClientTranslation'
 import { useFormState, useRule } from '@/publicodes-state'
 import { trackEvent } from '@/utils/analytics/trackEvent'
-import type { DottedName } from '@incubateur-ademe/nosgestesclimat'
+import type { DottedName } from '@abc-transitionbascarbone/tilt-simple-test-model'
 import { useState } from 'react'
 import Question from './subcategory/Question'
 

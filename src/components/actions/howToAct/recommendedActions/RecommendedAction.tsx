@@ -9,7 +9,7 @@ import {
 } from '@/helpers/getCategoryColorClass'
 import { useRule } from '@/publicodes-state'
 import { trackEvent } from '@/utils/analytics/trackEvent'
-import type { DottedName } from '@incubateur-ademe/nosgestesclimat'
+import type { DottedName } from '@abc-transitionbascarbone/tilt-simple-test-model'
 
 export default function RecommendedAction({
   actionDottedName,

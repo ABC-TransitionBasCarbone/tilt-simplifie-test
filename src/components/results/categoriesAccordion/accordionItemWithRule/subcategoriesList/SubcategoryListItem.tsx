@@ -6,7 +6,7 @@ import Emoji from '@/design-system/utils/Emoji'
 import { formatFootprint } from '@/helpers/formatters/formatFootprint'
 import { useRule } from '@/publicodes-state'
 import type { Metric } from '@/publicodes-state/types'
-import type { DottedName } from '@incubateur-ademe/nosgestesclimat'
+import type { DottedName } from '@abc-transitionbascarbone/tilt-simple-test-model'
 
 type Props = { subcategory: DottedName; categoryValue: number; metric?: Metric }
 

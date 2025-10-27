@@ -4,7 +4,7 @@ import type {
   DottedName,
   NGCRule,
   NGCRules,
-} from '@incubateur-ademe/nosgestesclimat'
+} from '@abc-transitionbascarbone/tilt-simple-test-model'
 import RuleDetail from './calculDetail/RuleDetail'
 
 export default function CalculDetail({

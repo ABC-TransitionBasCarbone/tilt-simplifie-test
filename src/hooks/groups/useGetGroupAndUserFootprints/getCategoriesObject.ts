@@ -1,9 +1,9 @@
 import type { Simulation } from '@/publicodes-state/types'
 import type {
-  CategoriesAndSubcategoriesFootprintsType,
-  ValueObject,
+    CategoriesAndSubcategoriesFootprintsType,
+    ValueObject,
 } from '@/types/groups'
-import type { DottedName } from '@incubateur-ademe/nosgestesclimat'
+import type { DottedName } from '@abc-transitionbascarbone/tilt-simple-test-model'
 
 export function getCategoriesObject({
   simulation,

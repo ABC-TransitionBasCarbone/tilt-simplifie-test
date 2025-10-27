@@ -1,7 +1,7 @@
 import Emoji from '@/design-system/utils/Emoji'
 import { getTextDarkColor } from '@/helpers/getCategoryColorClass'
 import { useRule } from '@/publicodes-state'
-import type { DottedName } from '@incubateur-ademe/nosgestesclimat'
+import type { DottedName } from '@abc-transitionbascarbone/tilt-simple-test-model'
 import { twMerge } from 'tailwind-merge'
 
 type Props = {

@@ -1,4 +1,4 @@
-import type { DottedName, NGCRule } from '@incubateur-ademe/nosgestesclimat'
+import type { DottedName, NGCRule } from '@abc-transitionbascarbone/tilt-simple-test-model'
 
 /**
  * We use this hook to get the content of the [somme] of a rule.

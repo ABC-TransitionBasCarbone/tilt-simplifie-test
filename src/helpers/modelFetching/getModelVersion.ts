@@ -6,7 +6,7 @@ import { defaultProps } from './getRules'
  */
 export async function getModelVersion(): Promise<string> {
   const packageJson = await import(
-    '@incubateur-ademe/nosgestesclimat/package.json'
+    '@abc-transitionbascarbone/tilt-simple-test-model/package.json'
   )
   const version = packageJson.version
   return `${defaultProps.regionCode}-${defaultProps.locale}-${version}`

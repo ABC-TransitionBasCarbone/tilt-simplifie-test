@@ -12,7 +12,7 @@ import {
 } from '@/publicodes-state'
 import { checkIfDottedNameShouldNotBeIgnored } from '@/publicodes-state/helpers/checkIfDottedNameShouldNotBeIgnored'
 import type { Action, MissingVariables } from '@/publicodes-state/types'
-import type { DottedName } from '@incubateur-ademe/nosgestesclimat'
+import type { DottedName } from '@abc-transitionbascarbone/tilt-simple-test-model'
 import { useEffect } from 'react'
 
 type Props = {
@@ -27,8 +27,8 @@ export default function ActionForm({
   action,
   category,
   onComplete,
-  setActionWithFormOpen = () => {},
-  handleUpdatePersistedActions = () => {},
+  setActionWithFormOpen = () => { },
+  handleUpdatePersistedActions = () => { },
 }: Props) {
   const {
     currentQuestion,

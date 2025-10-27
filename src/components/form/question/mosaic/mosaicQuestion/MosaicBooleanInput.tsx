@@ -6,7 +6,7 @@ import Emoji from '@/design-system/utils/Emoji'
 import { onKeyDownHelper } from '@/helpers/accessibility/onKeyDownHelper'
 import { useClientTranslation } from '@/hooks/useClientTranslation'
 import { useRule } from '@/publicodes-state'
-import type { DottedName } from '@incubateur-ademe/nosgestesclimat'
+import type { DottedName } from '@abc-transitionbascarbone/tilt-simple-test-model'
 import { motion } from 'framer-motion'
 import { twMerge } from 'tailwind-merge'
 

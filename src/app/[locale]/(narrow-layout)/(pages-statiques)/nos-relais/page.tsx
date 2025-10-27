@@ -11,7 +11,7 @@ import { t } from '@/helpers/metadata/fakeMetadataT'
 import { getCommonMetadata } from '@/helpers/metadata/getCommonMetadata'
 import { fetchPartners } from '@/services/cms/fetchPartners'
 import type { DefaultPageProps } from '@/types'
-import type { DottedName } from '@incubateur-ademe/nosgestesclimat'
+import type { DottedName } from '@abc-transitionbascarbone/tilt-simple-test-model'
 import Image from 'next/image'
 import PartnersDisplay from './_components/PartnersDisplay'
 

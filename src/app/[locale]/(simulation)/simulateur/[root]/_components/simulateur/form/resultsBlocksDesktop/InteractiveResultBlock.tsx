@@ -1,7 +1,7 @@
 import PlusIcon from '@/components/icons/PlusIcon'
 import TotalFootprintNumber from '@/components/misc/TotalFootprintNumber'
 import ValueChangeDisplay from '@/components/misc/ValueChangeDisplay'
-import type { Metrics } from '@incubateur-ademe/nosgestesclimat'
+import type { Metrics } from '@abc-transitionbascarbone/tilt-simple-test-model'
 import CategoriesResultList from './interactiveResultBlock/CategoriesResultList'
 
 export default function InteractiveResultBlock({

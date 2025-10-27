@@ -48,7 +48,7 @@
   },
   "dependencies": {
     "@incubateur-ademe/legal-pages-react": "^0.5.0",
-    "@incubateur-ademe/nosgestesclimat": "4.1.0",
+    "@abc-transitionbascarbone/tilt-simple-test-model": "1.0.0",
     "@next/mdx": "^15.5.6",
     "@publicodes/react-ui": "^1.10.0",
     "@publicodes/tools": "^1.8.0",
@@ -99,7 +99,7 @@
     "@babel/eslint-parser": "^7.26.8",
     "@chromatic-com/storybook": "^4.0.1",
     "@faker-js/faker": "^10.1.0",
-    "@incubateur-ademe/nosgestesclimat-scripts": "^0.8.0",
+    "@abc-transitionbascarbone/tilt-simple-test-model-scripts": "^0.8.0",
     "@mdx-js/loader": "^3.1.0",
     "@mdx-js/react": "^3.1.0",
     "@next/bundle-analyzer": "15.5.6",

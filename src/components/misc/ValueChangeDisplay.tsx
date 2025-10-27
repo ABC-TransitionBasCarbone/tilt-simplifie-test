@@ -5,7 +5,7 @@ import { formatFootprint } from '@/helpers/formatters/formatFootprint'
 import { useGetDifference } from '@/hooks/simulation/useGetDifference'
 import { useClientTranslation } from '@/hooks/useClientTranslation'
 import { useLocale } from '@/hooks/useLocale'
-import type { Metrics } from '@incubateur-ademe/nosgestesclimat'
+import type { Metrics } from '@abc-transitionbascarbone/tilt-simple-test-model'
 import { usePathname } from 'next/navigation'
 import { twMerge } from 'tailwind-merge'
 

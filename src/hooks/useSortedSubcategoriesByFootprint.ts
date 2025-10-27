@@ -1,6 +1,6 @@
 import { useEngine } from '@/publicodes-state'
 import type { Metric } from '@/publicodes-state/types'
-import type { DottedName } from '@incubateur-ademe/nosgestesclimat'
+import type { DottedName } from '@abc-transitionbascarbone/tilt-simple-test-model'
 import { useMemo } from 'react'
 
 type Props = {

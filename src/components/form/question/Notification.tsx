@@ -9,7 +9,7 @@ import {
   getTextCategoryColor,
 } from '@/helpers/getCategoryColorClass'
 import { useFormState, useRule } from '@/publicodes-state'
-import type { DottedName } from '@incubateur-ademe/nosgestesclimat'
+import type { DottedName } from '@abc-transitionbascarbone/tilt-simple-test-model'
 import { motion } from 'framer-motion'
 
 type Props = {

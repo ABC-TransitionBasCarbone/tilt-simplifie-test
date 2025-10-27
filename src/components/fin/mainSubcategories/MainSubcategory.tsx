@@ -9,7 +9,7 @@ import { useClientTranslation } from '@/hooks/useClientTranslation'
 import { useCurrentMetric } from '@/hooks/useCurrentMetric'
 import { useLocale } from '@/hooks/useLocale'
 import { useRule } from '@/publicodes-state'
-import type { DottedName } from '@incubateur-ademe/nosgestesclimat'
+import type { DottedName } from '@abc-transitionbascarbone/tilt-simple-test-model'
 import { twMerge } from 'tailwind-merge'
 
 const widthClassName = ['w-full', 'w-11/12 md:w-3/4', 'w-10/12 md:w-1/2']
@@ -59,10 +59,10 @@ export default function MainSubcategory({
       aria-label={
         isLink
           ? t(
-              'results.mainSubcategories.mainSubcategory.seeDetail',
-              '{{title}}, voir le détail ci-dessous',
-              { title }
-            )
+            'results.mainSubcategories.mainSubcategory.seeDetail',
+            '{{title}}, voir le détail ci-dessous',
+            { title }
+          )
           : ''
       }>
       <div

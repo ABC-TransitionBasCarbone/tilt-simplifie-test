@@ -4,7 +4,7 @@ import Button from '@/design-system/buttons/Button'
 import { useClientTranslation } from '@/hooks/useClientTranslation'
 import { useEngine } from '@/publicodes-state'
 import { trackEvent, trackPosthogEvent } from '@/utils/analytics/trackEvent'
-import type { DottedName } from '@incubateur-ademe/nosgestesclimat'
+import type { DottedName } from '@abc-transitionbascarbone/tilt-simple-test-model'
 import { motion } from 'framer-motion'
 import { useState } from 'react'
 import MosaicQuestion from './mosaic/MosaicQuestion'
@@ -32,9 +32,9 @@ export default function Mosaic({
 
   const [isMoreOptionsVisible, setIsMoreOptionsVisible] = useState(
     isSecondaryQuestionsOfMosaicNotEmpty &&
-      secondaryQuestionsOfMosaic.some(
-        (secondaryMosaicChild) => getValue(secondaryMosaicChild) === true
-      )
+    secondaryQuestionsOfMosaic.some(
+      (secondaryMosaicChild) => getValue(secondaryMosaicChild) === true
+    )
   )
   const { t } = useClientTranslation()
 
@@ -53,19 +53,19 @@ export default function Mosaic({
 
         {questionsOfMosaic
           ? questionsOfMosaic.map((questionOfMosaic, index) => (
-              <MosaicQuestion
-                key={questionOfMosaic}
-                parentMosaic={question}
-                question={questionOfMosaic}
-                index={index}
-                firstInputId={firstInputId}
-                {...props}
-              />
-            ))
+            <MosaicQuestion
+              key={questionOfMosaic}
+              parentMosaic={question}
+              question={questionOfMosaic}
+              index={index}
+              firstInputId={firstInputId}
+              {...props}
+            />
+          ))
           : t(
-              'simulator.mosaic.noChildren',
-              "Cette mosaique n'a pas d'enfants."
-            )}
+            'simulator.mosaic.noChildren',
+            "Cette mosaique n'a pas d'enfants."
+          )}
       </fieldset>
 
       {isSecondaryQuestionsOfMosaicNotEmpty && (

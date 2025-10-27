@@ -4,7 +4,7 @@ import type { Journey } from '@/types/journey'
 import { useEffect, useMemo, useRef, useState } from 'react'
 
 import { safeLocalStorage } from '@/utils/browser/safeLocalStorage'
-import type { DottedName } from '@incubateur-ademe/nosgestesclimat'
+import type { DottedName } from '@abc-transitionbascarbone/tilt-simple-test-model'
 import { JourneysInputDesktop } from './journeysInput/JourneysInputDesktop'
 import JourneysInputMobile from './journeysInput/JourneysInputMobile'
 
@@ -56,8 +56,8 @@ export default function JourneysInput({
       (accumulator, currentValue) =>
         accumulator +
         currentValue.distance *
-          currentValue.reccurrence *
-          periods[currentValue.period],
+        currentValue.reccurrence *
+        periods[currentValue.period],
       0
     )
     const roundedTotal = roundFloat(rawTotal)
@@ -73,9 +73,9 @@ export default function JourneysInput({
           (accumulator, currentValue) =>
             accumulator +
             currentValue.passengers *
-              currentValue.distance *
-              currentValue.reccurrence *
-              periods[currentValue.period],
+            currentValue.distance *
+            currentValue.reccurrence *
+            periods[currentValue.period],
           0
         ) / total
       const roundedAveragePassengers = roundFloat(rawAveragePassengers)

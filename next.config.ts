@@ -68,7 +68,7 @@ const nextConfig: NextConfig = {
     },
   },
   experimental: {
-    optimizePackageImports: ['@incubateur-ademe/nosgestesclimat'],
+    optimizePackageImports: ['@abc-transitionbascarbone/tilt-simple-test-model'],
     webpackBuildWorker: true,
   },
 }

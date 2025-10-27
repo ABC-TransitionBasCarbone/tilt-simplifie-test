@@ -1,4 +1,4 @@
-import personas from '@incubateur-ademe/nosgestesclimat/public/personas-fr.json' with { type: 'json' }
+import personas from '@abc-transitionbascarbone/tilt-simple-test-model/public/personas-fr.json' with { type: 'json' }
 import { writeFileSync } from 'fs'
 
 /**

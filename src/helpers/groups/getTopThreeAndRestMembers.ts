@@ -1,5 +1,5 @@
 import type { Participant } from '@/types/groups'
-import type { Metrics } from '@incubateur-ademe/nosgestesclimat'
+import type { Metrics } from '@abc-transitionbascarbone/tilt-simple-test-model'
 
 export const getTopThreeAndRestMembers = (
   members: Participant[] = [],

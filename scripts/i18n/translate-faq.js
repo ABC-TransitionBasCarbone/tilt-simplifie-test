@@ -4,9 +4,9 @@
 	Command: yarn translate:faq -- [options]
 */
 
-import cli from '@incubateur-ademe/nosgestesclimat-scripts/cli'
-import deepl from '@incubateur-ademe/nosgestesclimat-scripts/deepl'
-import utils from '@incubateur-ademe/nosgestesclimat-scripts/utils'
+import cli from '@abc-transitionbascarbone/tilt-simple-test-model-scripts/cli'
+import deepl from '@abc-transitionbascarbone/tilt-simple-test-model-scripts/deepl'
+import utils from '@abc-transitionbascarbone/tilt-simple-test-model-scripts/utils'
 import c from 'ansi-colors'
 import * as paths from './paths.js'
 

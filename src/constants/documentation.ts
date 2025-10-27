@@ -1,4 +1,4 @@
-import type { DottedName } from '@incubateur-ademe/nosgestesclimat'
+import type { DottedName } from '@abc-transitionbascarbone/tilt-simple-test-model'
 
 export const RULES_TO_HIDE: Set<DottedName> = new Set([
   'commun . mix électrique . empreinte eau',

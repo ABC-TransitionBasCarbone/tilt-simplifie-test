@@ -1,5 +1,5 @@
 import Question from '@/components/form/Question'
-import type { DottedName } from '@incubateur-ademe/nosgestesclimat'
+import type { DottedName } from '@abc-transitionbascarbone/tilt-simple-test-model'
 
 export default function Chauffage({ question }: { question: DottedName }) {
   // Order is defined here.

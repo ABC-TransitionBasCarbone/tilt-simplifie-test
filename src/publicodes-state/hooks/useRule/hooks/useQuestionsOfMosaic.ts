@@ -1,4 +1,4 @@
-import type { DottedName } from '@incubateur-ademe/nosgestesclimat'
+import type { DottedName } from '@abc-transitionbascarbone/tilt-simple-test-model'
 
 type Props = {
   everyMosaicChildrenWithParent: Record<DottedName, DottedName[]>

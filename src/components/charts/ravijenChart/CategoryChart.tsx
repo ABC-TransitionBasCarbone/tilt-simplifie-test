@@ -2,7 +2,7 @@
 
 import { DEFAULT_LIMIT_PERCENTAGE_TO_SQUASH } from '@/constants/ravijen'
 import { useEngine } from '@/publicodes-state'
-import type { DottedName } from '@incubateur-ademe/nosgestesclimat'
+import type { DottedName } from '@abc-transitionbascarbone/tilt-simple-test-model'
 import SubcategoryChartBlock from './categoryChart/SubcategoryChartBlock'
 import TotalCategoryBlock from './categoryChart/TotalCategoryBlock'
 
@@ -54,13 +54,11 @@ export default function CategoryChart({
 
   return (
     <div
-      className={`flex h-full ${
-        isInverted ? 'flex-col-reverse' : 'flex-col'
-      } justify-end gap-[4px]`}>
+      className={`flex h-full ${isInverted ? 'flex-col-reverse' : 'flex-col'
+        } justify-end gap-[4px]`}>
       <div
-        className={`flex h-[calc(100%-7rem)] ${
-          isInverted ? 'flex-col-reverse' : 'flex-col'
-        } justify-end gap-[1px]`}>
+        className={`flex h-[calc(100%-7rem)] ${isInverted ? 'flex-col-reverse' : 'flex-col'
+          } justify-end gap-[1px]`}>
         {sortedSubcategories?.map((subcategory, index: number) => {
           return (
             <SubcategoryChartBlock

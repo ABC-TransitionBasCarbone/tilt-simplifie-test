@@ -1,6 +1,6 @@
 // Return tracking data in format
 // [ 'trackEvent', 'Category', 'Action', 'Name', 'Value' ]
-import type { DottedName } from '@incubateur-ademe/nosgestesclimat'
+import type { DottedName } from '@abc-transitionbascarbone/tilt-simple-test-model'
 
 // Figma comment #57
 export const endClickPoll = ['trackEvent', 'Fin', 'Click Poll']

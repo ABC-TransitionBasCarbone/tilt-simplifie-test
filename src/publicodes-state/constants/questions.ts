@@ -1,4 +1,4 @@
-import type { DottedName } from '@incubateur-ademe/nosgestesclimat'
+import type { DottedName } from '@abc-transitionbascarbone/tilt-simple-test-model'
 
 export const MUST_NOT_ASK_QUESTIONS: Set<DottedName> = new Set([
   'divers . textile . empreinte précise',

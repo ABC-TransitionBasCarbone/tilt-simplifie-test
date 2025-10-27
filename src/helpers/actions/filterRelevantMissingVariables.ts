@@ -1,7 +1,7 @@
 import { MUST_NOT_ASK_QUESTIONS } from '@/publicodes-state/constants/questions'
 import { checkIfDottedNameShouldNotBeIgnored } from '@/publicodes-state/helpers/checkIfDottedNameShouldNotBeIgnored'
 import type { MissingVariables } from '@/publicodes-state/types'
-import type { DottedName } from '@incubateur-ademe/nosgestesclimat'
+import type { DottedName } from '@abc-transitionbascarbone/tilt-simple-test-model'
 import type { EvaluatedNode, PublicodesExpression } from 'publicodes'
 
 export const filterRelevantMissingVariables = ({

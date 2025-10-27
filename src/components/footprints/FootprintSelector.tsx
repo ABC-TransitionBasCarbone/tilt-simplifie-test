@@ -2,7 +2,7 @@
 import { carboneMetric, eauMetric } from '@/constants/model/metric'
 import Emoji from '@/design-system/utils/Emoji'
 import { useClientTranslation } from '@/hooks/useClientTranslation'
-import type { Metrics } from '@incubateur-ademe/nosgestesclimat'
+import type { Metrics } from '@abc-transitionbascarbone/tilt-simple-test-model'
 import type { Options } from 'react-select'
 import Select, { components } from 'react-select'
 import Trans from '../translation/trans/TransClient'

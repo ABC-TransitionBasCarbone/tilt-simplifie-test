@@ -4,8 +4,8 @@
 	Command: npm run generate:ui
 */
 
-import cli from '@incubateur-ademe/nosgestesclimat-scripts/cli'
-import utils from '@incubateur-ademe/nosgestesclimat-scripts/utils'
+import cli from '@abc-transitionbascarbone/tilt-simple-test-model-scripts/cli'
+import utils from '@abc-transitionbascarbone/tilt-simple-test-model-scripts/utils'
 import c from 'ansi-colors'
 import { execSync } from 'child_process'
 import fs from 'fs'

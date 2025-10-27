@@ -7,7 +7,7 @@ import { useRule } from '@/publicodes-state'
 import type { TranslationFunctionType } from '@/types/translation'
 import { trackEvent } from '@/utils/analytics/trackEvent'
 import { getCorrectedValue } from '@/utils/getCorrectedValue'
-import type { DottedName } from '@incubateur-ademe/nosgestesclimat'
+import type { DottedName } from '@abc-transitionbascarbone/tilt-simple-test-model'
 import type { EvaluatedNode } from 'publicodes'
 
 const getFormattedActionValue = (
@@ -83,9 +83,8 @@ export default function ActionValue({
   return (
     <div className="focus:ring-primary-700 focus:ring-2 focus:ring-offset-3 focus:outline-hidden">
       <div
-        className={`border-primary-700 bg-primary-700 mb-6 inline-block rounded-[0.25rem] border-2 border-solid pr-[2px] pl-2 text-white ${
-          correctedValue != undefined && correctedValue < 0 ? 'bg-red-500' : ''
-        }${remainingQuestions && remainingQuestions.length > 0 ? 'grayscale' : ''}`}>
+        className={`border-primary-700 bg-primary-700 mb-6 inline-block rounded-[0.25rem] border-2 border-solid pr-[2px] pl-2 text-white ${correctedValue != undefined && correctedValue < 0 ? 'bg-red-500' : ''
+          }${remainingQuestions && remainingQuestions.length > 0 ? 'grayscale' : ''}`}>
         <span>
           {sign ?? ''}&nbsp;
           <strong>{stringValue}</strong>&nbsp;

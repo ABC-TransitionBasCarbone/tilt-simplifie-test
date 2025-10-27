@@ -7,8 +7,8 @@
 const fs = require('fs')
 const { glob } = require('glob')
 
-const deepl = require('@incubateur-ademe/nosgestesclimat-scripts/deepl')
-const cli = require('@incubateur-ademe/nosgestesclimat-scripts/cli')
+const deepl = require('@abc-transitionbascarbone/tilt-simple-test-model-scripts/deepl')
+const cli = require('@abc-transitionbascarbone/tilt-simple-test-model-scripts/cli')
 const c = require('ansi-colors')
 
 const { srcLang, destLangs, srcFile, force } = cli.getArgs(

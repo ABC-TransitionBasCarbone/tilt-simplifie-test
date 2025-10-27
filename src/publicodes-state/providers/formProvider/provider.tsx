@@ -3,7 +3,7 @@
 import { useCurrentSimulation, useEngine } from '@/publicodes-state'
 
 import { NOT_FOUND_PATH } from '@/constants/urls/paths'
-import type { DottedName } from '@incubateur-ademe/nosgestesclimat'
+import type { DottedName } from '@abc-transitionbascarbone/tilt-simple-test-model'
 import type { PropsWithChildren } from 'react'
 import { useMemo } from 'react'
 import FormContext from './context'

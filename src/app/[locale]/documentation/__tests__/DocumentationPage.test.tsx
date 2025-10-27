@@ -1,7 +1,7 @@
 import DocumentationPage from '@/app/[locale]/documentation/[...slug]/page'
 import type { Locale } from '@/i18nConfig'
 import type { DefaultPageProps } from '@/types'
-import type { DottedName, NGCRules } from '@incubateur-ademe/nosgestesclimat'
+import type { DottedName, NGCRules } from '@abc-transitionbascarbone/tilt-simple-test-model'
 import { render, screen } from '@testing-library/react'
 import { beforeEach, describe, expect, it, vi } from 'vitest'
 

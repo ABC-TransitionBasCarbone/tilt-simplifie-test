@@ -1,6 +1,6 @@
 import { defaultInitialRegion } from '@/constants/localisation/defaultRegion'
 import type { RegionFromGeolocation } from '@/publicodes-state/types'
-import supportedRegions from '@incubateur-ademe/nosgestesclimat/public/supportedRegions.json'
+import supportedRegions from '@abc-transitionbascarbone/tilt-simple-test-model/public/supportedRegions.json'
 import { captureException } from '@sentry/nextjs'
 import axios, { isAxiosError } from 'axios'
 import { MODELE_URL } from '../../constants/urls/main'

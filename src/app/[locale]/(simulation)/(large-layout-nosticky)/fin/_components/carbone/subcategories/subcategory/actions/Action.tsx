@@ -10,7 +10,7 @@ import {
 } from '@/helpers/getCategoryColorClass'
 import { useCurrentSimulation, useRule } from '@/publicodes-state'
 import type { Metric } from '@/publicodes-state/types'
-import type { DottedName } from '@incubateur-ademe/nosgestesclimat'
+import type { DottedName } from '@abc-transitionbascarbone/tilt-simple-test-model'
 import { twMerge } from 'tailwind-merge'
 
 const colorClassName = ['200', '100', '50']
@@ -46,9 +46,9 @@ export default function Action({
         isActionChoosen
           ? 'bg-green-100'
           : getBackgroundLightColor(category).replace(
-              '100',
-              colorClassName[index]
-            ),
+            '100',
+            colorClassName[index]
+          ),
         isActionChoosen ? 'border-green-600' : getBorderColor(category),
         index === 2 ? 'hidden' : 'flex'
       )}>

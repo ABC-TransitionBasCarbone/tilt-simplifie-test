@@ -2,7 +2,7 @@
 
 import { carboneMetric } from '@/constants/model/metric'
 import { useEngine } from '@/publicodes-state'
-import type { DottedName, NGCRuleNode } from '@incubateur-ademe/nosgestesclimat'
+import type { DottedName, NGCRuleNode } from '@abc-transitionbascarbone/tilt-simple-test-model'
 import type { EvaluatedNode } from 'publicodes'
 import { utils } from 'publicodes'
 import { useMemo } from 'react'

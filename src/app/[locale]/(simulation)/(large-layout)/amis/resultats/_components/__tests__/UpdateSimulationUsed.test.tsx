@@ -1,6 +1,6 @@
 import { renderWithWrapper } from '@/helpers/tests/wrapper'
+import type { ExtendedSituation } from '@abc-transitionbascarbone/tilt-simple-test-model'
 import { faker } from '@faker-js/faker'
-import type { ExtendedSituation } from '@incubateur-ademe/nosgestesclimat'
 import { screen, waitFor } from '@testing-library/dom'
 import '@testing-library/jest-dom'
 import userEvent from '@testing-library/user-event'
@@ -117,11 +117,11 @@ describe('UpdateSimulationUsed', () => {
     const { updateGroupParticipant } = await import(
       '@/services/groups/updateGroupParticipant'
     )
-    ;(updateGroupParticipant as any).mockResolvedValue({
-      data: {
-        success: true,
-      },
-    })
+      ; (updateGroupParticipant as any).mockResolvedValue({
+        data: {
+          success: true,
+        },
+      })
 
     // When
     renderWithWrapper(<UpdateSimulationUsed {...mockProps} />, {
@@ -146,9 +146,9 @@ describe('UpdateSimulationUsed', () => {
     const { updateGroupParticipant } = await import(
       '@/services/groups/updateGroupParticipant'
     )
-    ;(updateGroupParticipant as any).mockRejectedValue(
-      new Error('Update failed')
-    )
+      ; (updateGroupParticipant as any).mockRejectedValue(
+        new Error('Update failed')
+      )
 
     // When
     renderWithWrapper(<UpdateSimulationUsed {...mockProps} />, {

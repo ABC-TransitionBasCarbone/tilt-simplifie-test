@@ -1,11 +1,11 @@
 import { useCurrentSimulation } from '@/publicodes-state'
 import { checkIfDottedNameShouldNotBeIgnored } from '@/publicodes-state/helpers/checkIfDottedNameShouldNotBeIgnored'
 import type {
-  Engine,
-  MissingVariables,
-  Situation,
+    Engine,
+    MissingVariables,
+    Situation,
 } from '@/publicodes-state/types'
-import type { DottedName } from '@incubateur-ademe/nosgestesclimat'
+import type { DottedName } from '@abc-transitionbascarbone/tilt-simple-test-model'
 import type { EvaluatedNode, PublicodesExpression } from 'publicodes'
 import { useCallback, useEffect, useState } from 'react'
 

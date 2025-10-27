@@ -1,6 +1,6 @@
-import type { Personas } from '@incubateur-ademe/nosgestesclimat'
-import personasEN from '@incubateur-ademe/nosgestesclimat/public/personas-en.json'
-import personasFR from '@incubateur-ademe/nosgestesclimat/public/personas-fr.json'
+import type { Personas } from '@abc-transitionbascarbone/tilt-simple-test-model'
+import personasEN from '@abc-transitionbascarbone/tilt-simple-test-model/public/personas-en.json'
+import personasFR from '@abc-transitionbascarbone/tilt-simple-test-model/public/personas-fr.json'
 import { importPreviewFile } from './importPreviewFile'
 
 const personasByLocale: Record<string, Personas> = {

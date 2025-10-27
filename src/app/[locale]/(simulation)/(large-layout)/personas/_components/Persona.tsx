@@ -9,7 +9,7 @@ import { useDisposableEngine, useEngine, useUser } from '@/publicodes-state'
 import type {
   DottedName,
   Persona as PersonaType,
-} from '@incubateur-ademe/nosgestesclimat'
+} from '@abc-transitionbascarbone/tilt-simple-test-model'
 import { useRouter } from 'next/navigation'
 
 type Props = {
@@ -37,11 +37,10 @@ export default function Persona({ persona, personaDottedName }: Props) {
 
   return (
     <Card
-      className={`${
-        isCurrentPersonaSelected
+      className={`${isCurrentPersonaSelected
           ? 'border-2! border-green-500 bg-green-200'
           : 'bg-primary-50 border-none'
-      } items-center`}>
+        } items-center`}>
       <div className="text-lg">{persona['icônes']}</div>
 
       <h2>{persona.nom}</h2>

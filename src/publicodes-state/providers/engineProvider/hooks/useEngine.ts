@@ -3,10 +3,10 @@ import { safeEvaluateHelper } from '@/publicodes-state/helpers/safeEvaluateHelpe
 import { safeGetRuleHelper } from '@/publicodes-state/helpers/safeGetRuleHelper'
 import type { Metric } from '@/publicodes-state/types'
 import type {
-  DottedName,
-  NGCRuleNode,
-  NGCRules,
-} from '@incubateur-ademe/nosgestesclimat'
+    DottedName,
+    NGCRuleNode,
+    NGCRules,
+} from '@abc-transitionbascarbone/tilt-simple-test-model'
 import { captureException } from '@sentry/nextjs'
 import type { PublicodesExpression } from 'publicodes'
 import Engine from 'publicodes'

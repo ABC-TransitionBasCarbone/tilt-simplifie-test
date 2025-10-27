@@ -13,7 +13,7 @@ import {
 import { useDebug } from '@/hooks/useDebug'
 import { useCurrentSimulation, useFormState, useRule } from '@/publicodes-state'
 import { trackEvent } from '@/utils/analytics/trackEvent'
-import type { DottedName } from '@incubateur-ademe/nosgestesclimat'
+import type { DottedName } from '@abc-transitionbascarbone/tilt-simple-test-model'
 import { twMerge } from 'tailwind-merge'
 
 export default function Question({
@@ -61,7 +61,7 @@ export default function Question({
         status === 'missing' ? '' : getBorderColor(category),
         isDisabled && 'border-gray-300! bg-[#F3F3F3] text-gray-800',
         status === 'current' &&
-          `${getBackgroundDarkColor(category)} text-white!`
+        `${getBackgroundDarkColor(category)} text-white!`
       )}
       onClick={() => {
         if (isDisabled) return

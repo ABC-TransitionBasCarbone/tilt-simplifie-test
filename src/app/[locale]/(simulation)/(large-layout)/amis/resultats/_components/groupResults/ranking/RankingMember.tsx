@@ -12,7 +12,7 @@ import { useRemoveParticipant } from '@/hooks/groups/useRemoveParticipant'
 import { useClientTranslation } from '@/hooks/useClientTranslation'
 import { useUser } from '@/publicodes-state'
 import type { Group, Participant } from '@/types/groups'
-import type { Metrics } from '@incubateur-ademe/nosgestesclimat'
+import type { Metrics } from '@abc-transitionbascarbone/tilt-simple-test-model'
 import { captureException } from '@sentry/nextjs'
 import type { QueryObserverResult } from '@tanstack/react-query'
 import isMobile from 'is-mobile'
@@ -122,7 +122,7 @@ export default function RankingMember({
             )}>
             {participant.simulation.progression !== 1
               ? // Display a placeholder
-                '--'
+              '--'
               : getRank(index)}
           </span>
 

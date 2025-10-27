@@ -1,8 +1,8 @@
 import type {
-  DottedName,
-  NGCRuleNode,
-  NGCRules,
-} from '@incubateur-ademe/nosgestesclimat'
+    DottedName,
+    NGCRuleNode,
+    NGCRules,
+} from '@abc-transitionbascarbone/tilt-simple-test-model'
 import useCurrentSimulation from '../useCurrentSimulation/useCurrentSimulation'
 
 import { useEngine } from '@/publicodes-state'

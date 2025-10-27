@@ -1,5 +1,5 @@
 import { getPersonas } from '@/helpers/modelFetching/getPersonas'
-import type { Personas } from '@incubateur-ademe/nosgestesclimat'
+import type { Personas } from '@abc-transitionbascarbone/tilt-simple-test-model'
 import type { UseQueryResult } from '@tanstack/react-query'
 import { keepPreviousData, useQuery } from '@tanstack/react-query'
 import { useLocale } from './useLocale'

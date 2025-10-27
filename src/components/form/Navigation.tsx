@@ -24,7 +24,7 @@ import {
 } from '@/publicodes-state'
 import getValueIsOverFloorOrCeiling from '@/publicodes-state/helpers/getValueIsOverFloorOrCeiling'
 import { trackEvent, trackPosthogEvent } from '@/utils/analytics/trackEvent'
-import type { DottedName } from '@incubateur-ademe/nosgestesclimat'
+import type { DottedName } from '@abc-transitionbascarbone/tilt-simple-test-model'
 import type { MouseEvent } from 'react'
 import { useCallback, useMemo, useRef } from 'react'
 import { twMerge } from 'tailwind-merge'
@@ -107,7 +107,7 @@ export default function Navigation({
     noPrevQuestion ||
     persistedRemainingQuestionsRef.current?.indexOf(question) === 0 ||
     persistedRemainingQuestionsRef.current?.indexOf(question) ===
-      (persistedRemainingQuestionsRef.current?.length || 0) - 1
+    (persistedRemainingQuestionsRef.current?.length || 0) - 1
 
   // Start time of the question
   //(we need to use question to update the start time when the question changes, but it is not exactly usefull as a dependency)
@@ -194,7 +194,7 @@ export default function Navigation({
             (dottedName, index) =>
               index ===
               (persistedRemainingQuestionsRef.current?.indexOf(question) || 0) +
-                1
+              1
           ) ?? null
         )
       } else {
@@ -244,7 +244,7 @@ export default function Navigation({
             (dottedName, index) =>
               index ===
               (persistedRemainingQuestionsRef.current?.indexOf(question) || 0) -
-                1
+              1
           ) ?? null
         )
       } else {
@@ -311,13 +311,13 @@ export default function Navigation({
 
   const skipTitle = isTestVersion
     ? t(
-        'common.navigation.nextQuestion.dontKnow.title',
-        'Je ne sais pas, passer et aller à la question suivante'
-      )
+      'common.navigation.nextQuestion.dontKnow.title',
+      'Je ne sais pas, passer et aller à la question suivante'
+    )
     : t(
-        'common.navigation.nextQuestion.pass.title',
-        'Passer et aller à la question suivante'
-      )
+      'common.navigation.nextQuestion.pass.title',
+      'Passer et aller à la question suivante'
+    )
 
   return (
     <div
@@ -325,7 +325,7 @@ export default function Navigation({
         'fixed right-0 bottom-0 left-0 z-50 min-h-[66px] bg-gray-100 py-3',
         isEmbedded && 'static bg-transparent p-0',
         isIframe &&
-          'relative right-auto bottom-auto left-auto z-0 bg-transparent'
+        'relative right-auto bottom-auto left-auto z-0 bg-transparent'
       )}>
       {!isIframe && !isEmbedded && <SyncIndicator />}
       <div
@@ -346,7 +346,7 @@ export default function Navigation({
           <span aria-hidden className="hidden md:inline">
             ←
           </span>
-           {t('Précédent')}
+          {t('Précédent')}
         </Button>
 
         <Button
@@ -358,15 +358,15 @@ export default function Navigation({
           title={
             finalNoNextQuestion
               ? t(
-                  'common.navigation.nextQuestion.finish.label',
-                  'Terminer le test et accéder à la page de résultats'
-                )
+                'common.navigation.nextQuestion.finish.label',
+                'Terminer le test et accéder à la page de résultats'
+              )
               : isMissing
                 ? skipTitle
                 : t(
-                    'common.navigation.nextQuestion.next.label',
-                    'Aller à la question suivante'
-                  )
+                  'common.navigation.nextQuestion.next.label',
+                  'Aller à la question suivante'
+                )
           }
           onClick={handleGoToNextQuestion}>
           {finalNoNextQuestion ? (

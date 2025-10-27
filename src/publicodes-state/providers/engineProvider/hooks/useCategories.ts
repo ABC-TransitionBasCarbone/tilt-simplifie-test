@@ -2,10 +2,10 @@ import { orderedCategories } from '@/constants/model/orderedCategories'
 import getSomme from '@/publicodes-state/helpers/getSomme'
 import { getSubcategories } from '@/publicodes-state/helpers/getSubcategories'
 import type {
-  DottedName,
-  NGCRuleNode,
-  NGCRulesNodes,
-} from '@incubateur-ademe/nosgestesclimat'
+    DottedName,
+    NGCRuleNode,
+    NGCRulesNodes,
+} from '@abc-transitionbascarbone/tilt-simple-test-model'
 import * as Sentry from '@sentry/nextjs'
 import { useMemo } from 'react'
 

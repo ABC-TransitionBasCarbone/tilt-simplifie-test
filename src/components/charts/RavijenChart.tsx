@@ -6,7 +6,7 @@ import Button from '@/design-system/buttons/Button'
 import { getSubcatsOfCategory } from '@/helpers/publicodes/getSubcatsOfCategory'
 import { useEngine } from '@/publicodes-state'
 import { trackEvent } from '@/utils/analytics/trackEvent'
-import type { DottedName } from '@incubateur-ademe/nosgestesclimat'
+import type { DottedName } from '@abc-transitionbascarbone/tilt-simple-test-model'
 import { toPng } from 'html-to-image'
 import CategoryChart from './ravijenChart/CategoryChart'
 

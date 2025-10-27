@@ -3,10 +3,10 @@ import type { PollDefaultAdditionalQuestion } from '@/constants/organisations/po
 import type { SimulationAdditionalQuestionAnswerType } from '@/constants/organisations/simulationAdditionalQuestionAnswerType'
 import type { ComputedResults, Situation } from '@/publicodes-state/types'
 import type {
-  DottedName,
-  ExtendedSituation,
-  FunFacts,
-} from '@incubateur-ademe/nosgestesclimat'
+    DottedName,
+    ExtendedSituation,
+    FunFacts,
+} from '@abc-transitionbascarbone/tilt-simple-test-model'
 
 type CustomAdditionalQuestions = {
   question: string

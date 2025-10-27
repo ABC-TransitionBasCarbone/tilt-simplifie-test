@@ -9,7 +9,7 @@ import type {
   DottedName,
   NGCRule,
   NGCRules,
-} from '@incubateur-ademe/nosgestesclimat'
+} from '@abc-transitionbascarbone/tilt-simple-test-model'
 import ButtonLaunch from './documentationServer/ButtonLaunch'
 import CalculDetail from './documentationServer/CalculDetail'
 import PagesProches from './documentationServer/PagesProches'

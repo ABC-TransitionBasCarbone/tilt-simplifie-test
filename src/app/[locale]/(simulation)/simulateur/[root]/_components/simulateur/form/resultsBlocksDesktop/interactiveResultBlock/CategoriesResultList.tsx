@@ -1,5 +1,5 @@
 import { orderedCategories } from '@/constants/model/orderedCategories'
-import type { Metrics } from '@incubateur-ademe/nosgestesclimat'
+import type { Metrics } from '@abc-transitionbascarbone/tilt-simple-test-model'
 import CategoryResult from './categoriesResultList/CategoryResult'
 
 export default function CategoriesResultList({ metric }: { metric: Metrics }) {

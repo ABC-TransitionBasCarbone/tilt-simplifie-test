@@ -4,16 +4,16 @@ import { checkIfDottedNameShouldNotBeIgnored } from '@/publicodes-state/helpers/
 import getIsMissing from '@/publicodes-state/helpers/getIsMissing'
 import getType from '@/publicodes-state/helpers/getType'
 import type {
-  MissingVariables,
-  ParsedRules,
-  Situation,
-  UpdateCurrentSimulationProps,
+    MissingVariables,
+    ParsedRules,
+    Situation,
+    UpdateCurrentSimulationProps,
 } from '@/publicodes-state/types'
 import type {
-  DottedName,
-  NGCRuleNode,
-  NodeValue,
-} from '@incubateur-ademe/nosgestesclimat'
+    DottedName,
+    NGCRuleNode,
+    NodeValue,
+} from '@abc-transitionbascarbone/tilt-simple-test-model'
 import type { EvaluatedNode, PublicodesExpression } from 'publicodes'
 import { utils } from 'publicodes'
 import { useCallback } from 'react'

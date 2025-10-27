@@ -3,7 +3,7 @@
 import { getBackgroundColor } from '@/helpers/getCategoryColorClass'
 import { getSubcatsOfCategory } from '@/helpers/publicodes/getSubcatsOfCategory'
 import { useEngine, useFormState } from '@/publicodes-state'
-import type { DottedName } from '@incubateur-ademe/nosgestesclimat'
+import type { DottedName } from '@abc-transitionbascarbone/tilt-simple-test-model'
 import Question from './subcategory/Question'
 
 type Props = {

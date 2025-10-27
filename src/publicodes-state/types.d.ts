@@ -1,17 +1,17 @@
 import type { Group } from '@/types/groups'
 import type {
-  DottedName,
-  ExtendedSituation,
-  Metrics,
-  NGCRuleNode,
-  NodeValue,
-  SuggestionValue,
-} from '@incubateur-ademe/nosgestesclimat'
+    DottedName,
+    ExtendedSituation,
+    Metrics,
+    NGCRuleNode,
+    NodeValue,
+    SuggestionValue,
+} from '@abc-transitionbascarbone/tilt-simple-test-model'
 import type PublicodesEngine from 'publicodes'
 import type {
-  EvaluatedNode,
-  ParsedRules as PublicodesParsedRules,
-  Situation as PublicodesSituation,
+    EvaluatedNode,
+    ParsedRules as PublicodesParsedRules,
+    Situation as PublicodesSituation,
 } from 'publicodes'
 
 // Utils

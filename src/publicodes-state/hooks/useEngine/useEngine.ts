@@ -2,7 +2,7 @@ import getNamespace from '@/publicodes-state/helpers/getNamespace'
 import getSomme from '@/publicodes-state/helpers/getSomme'
 import { EngineContext } from '@/publicodes-state/providers/engineProvider/context'
 import type { Metric } from '@/publicodes-state/types'
-import type { DottedName, NodeValue } from '@incubateur-ademe/nosgestesclimat'
+import type { DottedName, NodeValue } from '@abc-transitionbascarbone/tilt-simple-test-model'
 import { useCallback, useContext } from 'react'
 
 /**

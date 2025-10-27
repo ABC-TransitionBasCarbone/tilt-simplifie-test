@@ -4,7 +4,7 @@ import { carboneMetric } from '@/constants/model/metric'
 import { useCurrentSimulation, useEngine } from '@/publicodes-state'
 import getSomme from '@/publicodes-state/helpers/getSomme'
 import type { Metric } from '@/publicodes-state/types'
-import type { DottedName } from '@incubateur-ademe/nosgestesclimat'
+import type { DottedName } from '@abc-transitionbascarbone/tilt-simple-test-model'
 import { captureException } from '@sentry/nextjs'
 import { useMemo } from 'react'
 

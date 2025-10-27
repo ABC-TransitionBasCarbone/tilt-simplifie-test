@@ -6,7 +6,7 @@ import type {
   DottedName,
   NGCRule,
   NGCRules,
-} from '@incubateur-ademe/nosgestesclimat'
+} from '@abc-transitionbascarbone/tilt-simple-test-model'
 import { utils } from 'publicodes'
 
 const getRuleFormatted = (rule: NGCRule): NGCRule => {

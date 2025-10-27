@@ -2,7 +2,7 @@
 
 import getNamespace from '@/publicodes-state/helpers/getNamespace'
 import type { Situation } from '@/publicodes-state/types'
-import type { DottedName } from '@incubateur-ademe/nosgestesclimat'
+import type { DottedName } from '@abc-transitionbascarbone/tilt-simple-test-model'
 import type { EvaluatedNode, PublicodesExpression } from 'publicodes'
 import { useMemo } from 'react'
 

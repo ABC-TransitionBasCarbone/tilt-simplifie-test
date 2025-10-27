@@ -2,7 +2,7 @@
 
 import { FILTER_SEARCH_PARAM_KEY } from '@/constants/filtering'
 import { encodeDottedNameAsURI } from '@/utils/format/encodeDottedNameAsURI'
-import type { DottedName } from '@incubateur-ademe/nosgestesclimat'
+import type { DottedName } from '@abc-transitionbascarbone/tilt-simple-test-model'
 import { useSearchParams } from 'next/navigation'
 import { useCallback, useEffect, useRef, useState } from 'react'
 import { twMerge } from 'tailwind-merge'
@@ -74,7 +74,7 @@ export default function CategoryTabs({
     }
 
     setActiveTabIndex(newIndex)
-    ;(tabs[newIndex] as HTMLElement).focus()
+      ; (tabs[newIndex] as HTMLElement).focus()
   }
 
   return (

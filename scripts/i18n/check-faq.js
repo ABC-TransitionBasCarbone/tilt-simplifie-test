@@ -1,5 +1,5 @@
-import cli from '@incubateur-ademe/nosgestesclimat-scripts/cli'
-import utils from '@incubateur-ademe/nosgestesclimat-scripts/utils'
+import cli from '@abc-transitionbascarbone/tilt-simple-test-model-scripts/cli'
+import utils from '@abc-transitionbascarbone/tilt-simple-test-model-scripts/utils'
 import * as paths from './paths.js'
 
 const { srcLang, destLangs, markdown } = cli.getArgs(

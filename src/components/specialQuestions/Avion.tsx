@@ -3,7 +3,7 @@
 import Question from '@/components/form/Question'
 import Button from '@/design-system/buttons/Button'
 import { useClientTranslation } from '@/hooks/useClientTranslation'
-import type { DottedName } from '@incubateur-ademe/nosgestesclimat'
+import type { DottedName } from '@abc-transitionbascarbone/tilt-simple-test-model'
 import { useState } from 'react'
 import PencilIcon from '../icons/PencilIcon'
 import ThreeYearsInput from './avion/ThreeYearsInput'

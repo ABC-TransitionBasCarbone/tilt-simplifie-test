@@ -7,7 +7,7 @@ import { getBackgroundColor } from '@/helpers/getCategoryColorClass'
 import { useRule } from '@/publicodes-state'
 import { capitalizeString } from '@/utils/capitalizeString'
 import { removePercentageFromString } from '@/utils/removePercentageFromString'
-import type { DottedName } from '@incubateur-ademe/nosgestesclimat'
+import type { DottedName } from '@abc-transitionbascarbone/tilt-simple-test-model'
 import Image from 'next/image'
 import EnigmaticMoreChartBlock from './subcategoryChartBlock/EnigmaticMoreChartBlock'
 
@@ -48,13 +48,13 @@ export default function SubcategoryChartBlock({
   // Replace only the first item squashed by the EnigmaticMoreChartBlock
   if (
     heightPercentage <
-      (squashLimitPercentage ?? DEFAULT_LIMIT_PERCENTAGE_TO_SQUASH) &&
+    (squashLimitPercentage ?? DEFAULT_LIMIT_PERCENTAGE_TO_SQUASH) &&
     index !== 0
   ) {
     return null
   } else if (
     heightPercentage <
-      (squashLimitPercentage ?? DEFAULT_LIMIT_PERCENTAGE_TO_SQUASH) &&
+    (squashLimitPercentage ?? DEFAULT_LIMIT_PERCENTAGE_TO_SQUASH) &&
     index === 0
   ) {
     return (
@@ -75,9 +75,8 @@ export default function SubcategoryChartBlock({
     <Link
       title={`${titleFormatted}, ${formattedValue} ${unit}, voir la documentation`}
       href={`/documentation/${subcategory.replaceAll(' . ', '/')}`}
-      className={`!text-default relative flex items-center py-2 !no-underline hover:!underline ${
-        isSmall ? 'flex-row justify-center gap-1' : 'flex-col flex-wrap'
-      } ${getBackgroundColor(category)}`}
+      className={`!text-default relative flex items-center py-2 !no-underline hover:!underline ${isSmall ? 'flex-row justify-center gap-1' : 'flex-col flex-wrap'
+        } ${getBackgroundColor(category)}`}
       style={{
         height: `${heightPercentage}%`,
       }}>

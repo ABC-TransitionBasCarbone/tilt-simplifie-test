@@ -3,7 +3,7 @@
 import Trans from '@/components/translation/trans/TransClient'
 import { formatCarbonFootprint } from '@/helpers/formatters/formatCarbonFootprint'
 import { useClientTranslation } from '@/hooks/useClientTranslation'
-import type { Categories } from '@incubateur-ademe/nosgestesclimat'
+import type { Categories } from '@abc-transitionbascarbone/tilt-simple-test-model'
 import isMobile from 'is-mobile'
 import {
   PolarAngleAxis,
@@ -50,7 +50,7 @@ export default function CategoryRadarChart({
   const maxValue =
     Math.ceil(
       Math.max(...Object.values(userValues), ...Object.values(averageValues)) /
-        5
+      5
     ) + 5
 
   const data = Object.keys(userValues).map((key) => {

@@ -15,7 +15,7 @@ import { useLocale } from '@/hooks/useLocale'
 import { useRules } from '@/hooks/useRules'
 import { useUser } from '@/publicodes-state'
 import { trackEvent } from '@/utils/analytics/trackEvent'
-import type { SupportedRegions } from '@incubateur-ademe/nosgestesclimat'
+import type { SupportedRegions } from '@abc-transitionbascarbone/tilt-simple-test-model'
 import { useState } from 'react'
 
 type Props = {
@@ -47,9 +47,8 @@ export default function RegionSelector({
     <>
       <details open={isOpen} className="rounded-xl bg-gray-100 p-2">
         <summary
-          className={`middle w-auto cursor-pointer p-4 ${
-            isLoading ? 'pointer-events-none opacity-60' : ''
-          }`}
+          className={`middle w-auto cursor-pointer p-4 ${isLoading ? 'pointer-events-none opacity-60' : ''
+            }`}
           onClick={() => trackEvent(profilOpenRegions)}
           aria-expanded={isOpen}
           aria-controls="region-grid"

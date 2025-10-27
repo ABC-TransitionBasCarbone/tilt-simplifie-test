@@ -1,7 +1,7 @@
 import { getPosts } from '@/helpers/markdown/getPosts'
 import { fetchAllArticleTitlesAndSlugs } from '@/services/cms/fetchAllArticleTitlesAndSlugs'
 import { fetchThematicLandingPages } from '@/services/cms/fetchThematicLandingPages'
-import rules from '@incubateur-ademe/nosgestesclimat/public/co2-model.FR-lang.fr-opti.json'
+import rules from '@abc-transitionbascarbone/tilt-simple-test-model/public/co2-model.FR-lang.fr-opti.json'
 import type { MetadataRoute } from 'next'
 import { utils } from 'publicodes'
 

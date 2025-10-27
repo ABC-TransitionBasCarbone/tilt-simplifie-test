@@ -11,7 +11,7 @@ import type {
   DottedName,
   NGCRule,
   NGCRules,
-} from '@incubateur-ademe/nosgestesclimat'
+} from '@abc-transitionbascarbone/tilt-simple-test-model'
 import { redirect } from 'next/navigation'
 import DocumentationRouter from './_components/DocumentationRouter'
 import DocumentationServer from './_components/documentationRouter/DocumentationServer'
@@ -39,13 +39,13 @@ export async function generateMetadata({
     title:
       rule && ruleName
         ? // Dynamic title for each documentation page
-          t('Documentation, de la règle : {{ruleTitle}} - Nos Gestes Climat', {
-            ruleTitle: capitalizeString(
-              getRuleTitle({ ...rule, dottedName: ruleName })
-            ),
-          })
+        t('Documentation, de la règle : {{ruleTitle}} - Nos Gestes Climat', {
+          ruleTitle: capitalizeString(
+            getRuleTitle({ ...rule, dottedName: ruleName })
+          ),
+        })
         : // Fallback title
-          t('Documentation, règle du calculateur - Nos Gestes Climat'),
+        t('Documentation, règle du calculateur - Nos Gestes Climat'),
     description: t(
       'Notre documentation détaille les calculs qui nous ont permis de calculer votre bilan carbone personnel.'
     ),

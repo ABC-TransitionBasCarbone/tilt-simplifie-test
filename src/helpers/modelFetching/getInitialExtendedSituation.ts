@@ -1,5 +1,5 @@
-import type { ExtendedSituation } from '@incubateur-ademe/nosgestesclimat'
-import initialExtendedSituation from '@incubateur-ademe/nosgestesclimat/public/initialExtendedSituation.json'
+import type { ExtendedSituation } from '@abc-transitionbascarbone/tilt-simple-test-model'
+import initialExtendedSituation from '@abc-transitionbascarbone/tilt-simple-test-model/public/initialExtendedSituation.json'
 /**
  * This function is used to get the initial extended situation. It can be called directly from a server component.
  */

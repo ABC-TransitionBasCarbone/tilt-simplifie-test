@@ -1,7 +1,7 @@
 import Badge from '@/design-system/layout/Badge'
 import Emoji from '@/design-system/utils/Emoji'
 import { useRule } from '@/publicodes-state'
-import type { DottedName } from '@incubateur-ademe/nosgestesclimat'
+import type { DottedName } from '@abc-transitionbascarbone/tilt-simple-test-model'
 import { formatValue } from 'publicodes'
 import ValueDiff from './pointsListItem/ValueDiff'
 

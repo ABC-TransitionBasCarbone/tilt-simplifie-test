@@ -29,7 +29,7 @@ export default function CategoryRadarChart({
 }: Props) {
   const { t } = useClientTranslation()
 
-  const categoryLabels = {
+  const categoryLabels: Record<Categories, string> = {
     transport: t('common.category.transport', 'Transport'),
     alimentation: isMobile()
       ? t('common.category.alimentationShort', 'Alim.')
@@ -39,7 +39,7 @@ export default function CategoryRadarChart({
     'services sociétaux': t('common.category.services', 'Services'),
   }
 
-  const categoryLabelsFull = {
+  const categoryLabelsFull: Record<Categories, string> = {
     transport: t('common.category.transport', 'Transport'),
     alimentation: t('common.category.alimentation', 'Alimentation'),
     logement: t('common.category.logement', 'Logement'),

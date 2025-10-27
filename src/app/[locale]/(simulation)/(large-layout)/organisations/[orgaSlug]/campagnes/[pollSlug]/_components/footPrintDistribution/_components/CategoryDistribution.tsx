@@ -26,7 +26,7 @@ export default function CategoryDistribution({
 }: Props) {
   const { t } = useClientTranslation()
 
-  const categoryLabels = {
+  const categoryLabels: Record<Categories, string> = {
     transport: t('common.category.transport', 'Transport'),
     alimentation: t('common.category.alimentation', 'Alimentation'),
     logement: t('common.category.logement', 'Logement'),
@@ -34,7 +34,7 @@ export default function CategoryDistribution({
     'services sociétaux': t('common.category.services', 'Services sociétaux'),
   }
 
-  const categoryLabelsFull = {
+  const categoryLabelsFull: Record<Categories, string> = {
     transport: t('common.category.transport', 'Transport'),
     alimentation: t('common.category.alimentation', 'Alimentation'),
     logement: t('common.category.logement', 'Logement'),

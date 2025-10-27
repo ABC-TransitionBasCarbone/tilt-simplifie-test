@@ -135,7 +135,7 @@ export default function useSimulations({
                 }
                 return acc
               },
-              {} as Partial<ExtendedSituation>
+              {} as ExtendedSituation
             )
 
             const removedDottedNames = simulationToUpdateSituationKeys.reduce(
@@ -147,7 +147,7 @@ export default function useSimulations({
                 }
                 return acc
               },
-              {} as Partial<ExtendedSituation>
+              {} as ExtendedSituation
             )
 
             simulationToUpdate.extendedSituation = {

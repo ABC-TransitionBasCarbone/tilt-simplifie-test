@@ -46,11 +46,11 @@ export default function RuleListItem({
                   <span key={name}>
                     {matches
                       ? highlightMatches(
-                        name,
-                        matches.filter(
-                          (m) => m.key === 'espace' && m.value === name
-                        ) as Matches
-                      )
+                          name,
+                          matches.filter(
+                            (m) => m.key === 'espace' && m.value === name
+                          ) as Matches
+                        )
                       : name}
                     {index < array.length - 1 && (
                       <span aria-hidden="true"> › </span>
@@ -62,9 +62,9 @@ export default function RuleListItem({
             <div className="font-medium">
               {matches
                 ? highlightMatches(
-                  item.title,
-                  matches.filter((m) => m.key === 'title') as Matches
-                )
+                    item.title,
+                    matches.filter((m) => m.key === 'title') as Matches
+                  )
                 : item.title}
             </div>
           </div>

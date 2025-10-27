@@ -1,17 +1,17 @@
 'use client'
 import type {
-    DottedName,
-    NGCRuleNode,
-    NGCRules,
+  DottedName,
+  NGCRuleNode,
+  NGCRules,
 } from '@abc-transitionbascarbone/tilt-simple-test-model'
 import type { EvaluatedNode, PublicodesExpression } from 'publicodes'
 import { createContext } from 'react'
 import type {
-    Engine,
-    Metric,
-    MissingVariables,
-    ParsedRules,
-    Situation,
+  Engine,
+  Metric,
+  MissingVariables,
+  ParsedRules,
+  Situation,
 } from '../../types'
 
 type EngineContextType = {

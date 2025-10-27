@@ -3,9 +3,9 @@ import type { PollDefaultAdditionalQuestion } from '@/constants/organisations/po
 import type { SimulationAdditionalQuestionAnswerType } from '@/constants/organisations/simulationAdditionalQuestionAnswerType'
 import type { ComputedResults, Situation } from '@/publicodes-state/types'
 import type {
-    DottedName,
-    ExtendedSituation,
-    FunFacts,
+  DottedName,
+  ExtendedSituation,
+  FunFacts,
 } from '@abc-transitionbascarbone/tilt-simple-test-model'
 
 type CustomAdditionalQuestions = {

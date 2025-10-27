@@ -122,7 +122,7 @@ export default function RankingMember({
             )}>
             {participant.simulation.progression !== 1
               ? // Display a placeholder
-              '--'
+                '--'
               : getRank(index)}
           </span>
 

@@ -4,7 +4,10 @@ import TextInput from '@/design-system/inputs/TextInput'
 import Card from '@/design-system/layout/Card'
 import { getRuleTitle } from '@/helpers/publicodes/getRuleTitle'
 import { useClientTranslation } from '@/hooks/useClientTranslation'
-import type { DottedName, NGCRules } from '@abc-transitionbascarbone/tilt-simple-test-model'
+import type {
+  DottedName,
+  NGCRules,
+} from '@abc-transitionbascarbone/tilt-simple-test-model'
 import Fuse, { type FuseResult } from 'fuse.js'
 import { utils } from 'publicodes'
 import { type ChangeEvent, useEffect, useMemo, useRef, useState } from 'react'

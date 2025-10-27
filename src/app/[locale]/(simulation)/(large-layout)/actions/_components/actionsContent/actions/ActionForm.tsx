@@ -27,8 +27,8 @@ export default function ActionForm({
   action,
   category,
   onComplete,
-  setActionWithFormOpen = () => { },
-  handleUpdatePersistedActions = () => { },
+  setActionWithFormOpen = () => {},
+  handleUpdatePersistedActions = () => {},
 }: Props) {
   const {
     currentQuestion,

@@ -4,10 +4,10 @@ import { useMemo } from 'react'
 import getIsMissing from '../../../helpers/getIsMissing'
 
 import {
-    MUST_ASK_QUESTIONS,
-    MUST_NOT_ASK_QUESTIONS,
-    NON_PRIORITY_QUESTIONS,
-    PRIORITY_QUESTIONS,
+  MUST_ASK_QUESTIONS,
+  MUST_NOT_ASK_QUESTIONS,
+  NON_PRIORITY_QUESTIONS,
+  PRIORITY_QUESTIONS,
 } from '@/publicodes-state/constants/questions'
 import getSortedQuestionsList from '@/publicodes-state/helpers/getSortedQuestionsList'
 import type { Entries, MissingVariables, Situation } from '../../../types'

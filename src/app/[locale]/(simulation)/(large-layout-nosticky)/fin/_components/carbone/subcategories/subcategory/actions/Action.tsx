@@ -46,9 +46,9 @@ export default function Action({
         isActionChoosen
           ? 'bg-green-100'
           : getBackgroundLightColor(category).replace(
-            '100',
-            colorClassName[index]
-          ),
+              '100',
+              colorClassName[index]
+            ),
         isActionChoosen ? 'border-green-600' : getBorderColor(category),
         index === 2 ? 'hidden' : 'flex'
       )}>

@@ -6,7 +6,10 @@ import { getTextDarkColor } from '@/helpers/getCategoryColorClass'
 import { useClientTranslation } from '@/hooks/useClientTranslation'
 import { useLocale } from '@/hooks/useLocale'
 import { useFormState, useRule } from '@/publicodes-state'
-import type { DottedName, Metrics } from '@abc-transitionbascarbone/tilt-simple-test-model'
+import type {
+  DottedName,
+  Metrics,
+} from '@abc-transitionbascarbone/tilt-simple-test-model'
 import { twMerge } from 'tailwind-merge'
 
 export default function CategoryResult({

@@ -1,6 +1,9 @@
 import Link from '@/components/Link'
 import { getRuleTitle } from '@/helpers/publicodes/getRuleTitle'
-import type { DottedName, NGCRules } from '@abc-transitionbascarbone/tilt-simple-test-model'
+import type {
+  DottedName,
+  NGCRules,
+} from '@abc-transitionbascarbone/tilt-simple-test-model'
 import { utils } from 'publicodes'
 
 export default function PagesProches({

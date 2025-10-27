@@ -68,7 +68,9 @@ const nextConfig: NextConfig = {
     },
   },
   experimental: {
-    optimizePackageImports: ['@abc-transitionbascarbone/tilt-simple-test-model'],
+    optimizePackageImports: [
+      '@abc-transitionbascarbone/tilt-simple-test-model',
+    ],
     webpackBuildWorker: true,
   },
 }

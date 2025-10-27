@@ -7,7 +7,10 @@ import { captureDownloadFunFactsPlus } from '@/constants/tracking/posthogTracker
 import Button from '@/design-system/buttons/Button'
 import type { Entries } from '@/publicodes-state/types'
 import { trackEvent, trackPosthogEvent } from '@/utils/analytics/trackEvent'
-import type { DottedName, FunFacts } from '@abc-transitionbascarbone/tilt-simple-test-model'
+import type {
+  DottedName,
+  FunFacts,
+} from '@abc-transitionbascarbone/tilt-simple-test-model'
 import { toPng } from 'html-to-image'
 import { useParams } from 'next/navigation'
 import { utils } from 'publicodes'

@@ -1,4 +1,7 @@
-import type { DottedName, NGCRuleNode } from '@abc-transitionbascarbone/tilt-simple-test-model'
+import type {
+  DottedName,
+  NGCRuleNode,
+} from '@abc-transitionbascarbone/tilt-simple-test-model'
 import { captureException } from '@sentry/nextjs'
 import type { Engine } from '../types'
 

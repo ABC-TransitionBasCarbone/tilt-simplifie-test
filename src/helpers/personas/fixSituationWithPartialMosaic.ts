@@ -1,6 +1,9 @@
 import getType from '@/publicodes-state/helpers/getType'
 import type { Situation } from '@/publicodes-state/types'
-import type { DottedName, NGCRuleNode } from '@abc-transitionbascarbone/tilt-simple-test-model'
+import type {
+  DottedName,
+  NGCRuleNode,
+} from '@abc-transitionbascarbone/tilt-simple-test-model'
 import type { EvaluatedNode, PublicodesExpression } from 'publicodes'
 
 type Props = {

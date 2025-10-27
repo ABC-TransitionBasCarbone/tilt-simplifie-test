@@ -1,8 +1,8 @@
 import type { DottedName } from '@abc-transitionbascarbone/tilt-simple-test-model'
 import type {
-    ComputedResults,
-    ComputedResultsFootprint,
-    Metric,
+  ComputedResults,
+  ComputedResultsFootprint,
+  Metric,
 } from '../types'
 
 export function getComputedResults({

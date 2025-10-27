@@ -2,12 +2,12 @@
 
 import { FILTER_SEARCH_PARAM_KEY } from '@/constants/filtering'
 import { trackingCategoryFilter } from '@/constants/tracking/misc'
-import { baseClassNames } from "@/design-system/buttons/Button"
+import { baseClassNames } from '@/design-system/buttons/Button'
 import {
   getBackgroundColor,
   getBackgroundLightColor,
   getBorderDarkColor,
-  getTextDarkColor
+  getTextDarkColor,
 } from '@/helpers/getCategoryColorClass'
 import { useClientTranslation } from '@/hooks/useClientTranslation'
 import { trackEvent } from '@/utils/analytics/trackEvent'

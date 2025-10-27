@@ -194,7 +194,7 @@ export default function ActionCard({
               'focus:ring-primary-700 focus:ring-2 focus:ring-offset-3 focus:outline-hidden'
             )}
             onClick={
-              remainingQuestions?.length > 0 ? () => { } : handleChooseAction
+              remainingQuestions?.length > 0 ? () => {} : handleChooseAction
             }>
             <CheckCircleIcon
               className="fill-green-700"
@@ -206,14 +206,14 @@ export default function ActionCard({
           {!Object.keys(actionChoices || {}).some((key) => {
             return key === dottedName && actionChoices?.[key]
           }) && (
-              <button
-                title={t("Rejeter l'action")}
-                onClick={handleRejectAction}
-                aria-label={`${title} ${actionChoices?.[dottedName] ? t('actions.rejectAction.ariaLabel.selected', 'Action rejetée') : t('actions.rejectAction.ariaLabel.unselected', 'Rejeter cette action')}`}
-                className="focus:ring-primary-700 focus:ring-2 focus:ring-offset-3 focus:outline-hidden">
-                <CloseIcon width="40" height="40" className="fill-gray-600" />
-              </button>
-            )}
+            <button
+              title={t("Rejeter l'action")}
+              onClick={handleRejectAction}
+              aria-label={`${title} ${actionChoices?.[dottedName] ? t('actions.rejectAction.ariaLabel.selected', 'Action rejetée') : t('actions.rejectAction.ariaLabel.unselected', 'Rejeter cette action')}`}
+              className="focus:ring-primary-700 focus:ring-2 focus:ring-offset-3 focus:outline-hidden">
+              <CloseIcon width="40" height="40" className="fill-gray-600" />
+            </button>
+          )}
         </div>
       </div>
     </div>

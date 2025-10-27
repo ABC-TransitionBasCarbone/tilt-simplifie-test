@@ -1,6 +1,9 @@
 import type { Engine, Entries, ParsedRules } from '@/publicodes-state/types'
 import type { MissingVariables } from '@/publicodes-state/types.d'
-import type { DottedName, NGCRuleNode } from '@abc-transitionbascarbone/tilt-simple-test-model'
+import type {
+  DottedName,
+  NGCRuleNode,
+} from '@abc-transitionbascarbone/tilt-simple-test-model'
 import { utils } from 'publicodes'
 import { useMemo } from 'react'
 

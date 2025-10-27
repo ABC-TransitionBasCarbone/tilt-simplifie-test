@@ -1,6 +1,9 @@
 import Emoji from '@/design-system/utils/Emoji'
 import { useRule } from '@/publicodes-state'
-import type { DottedName, FunFacts } from '@abc-transitionbascarbone/tilt-simple-test-model'
+import type {
+  DottedName,
+  FunFacts,
+} from '@abc-transitionbascarbone/tilt-simple-test-model'
 import { twMerge } from 'tailwind-merge'
 
 type Props = {

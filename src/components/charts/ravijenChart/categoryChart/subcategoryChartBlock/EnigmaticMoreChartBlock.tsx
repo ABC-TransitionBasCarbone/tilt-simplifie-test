@@ -1,7 +1,7 @@
 'use client'
 
-import { getBackgroundColor } from '@/helpers/getCategoryColorClass';
-import type { DottedName } from '@abc-transitionbascarbone/tilt-simple-test-model';
+import { getBackgroundColor } from '@/helpers/getCategoryColorClass'
+import type { DottedName } from '@abc-transitionbascarbone/tilt-simple-test-model'
 
 type Props = { category: DottedName; percentageSquashed: number }
 

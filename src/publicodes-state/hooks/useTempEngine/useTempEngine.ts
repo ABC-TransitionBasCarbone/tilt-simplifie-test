@@ -1,7 +1,7 @@
 import type {
-    DottedName,
-    NGCRuleNode,
-    NGCRules,
+  DottedName,
+  NGCRuleNode,
+  NGCRules,
 } from '@abc-transitionbascarbone/tilt-simple-test-model'
 import useCurrentSimulation from '../useCurrentSimulation/useCurrentSimulation'
 

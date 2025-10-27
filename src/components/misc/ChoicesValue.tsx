@@ -1,5 +1,8 @@
 import { useRule } from '@/publicodes-state'
-import type { DottedName, NodeValue } from '@abc-transitionbascarbone/tilt-simple-test-model'
+import type {
+  DottedName,
+  NodeValue,
+} from '@abc-transitionbascarbone/tilt-simple-test-model'
 
 type Props = {
   value: NodeValue

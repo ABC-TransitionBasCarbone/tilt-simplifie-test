@@ -1,6 +1,6 @@
 import type {
-    SupportedRegion,
-    SupportedRegions,
+  SupportedRegion,
+  SupportedRegions,
 } from '@abc-transitionbascarbone/tilt-simple-test-model'
 
 export const sortSupportedRegions = ({

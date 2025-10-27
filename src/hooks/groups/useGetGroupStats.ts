@@ -1,8 +1,8 @@
 import { getUserCategoryFootprintsSortedByDifference } from '@/helpers/groups/getUserCategoryFootprintsSortedByDifference'
 import type {
-    CategoriesAndSubcategoriesFootprintsType,
-    Participant,
-    PointsFortsFaiblesType,
+  CategoriesAndSubcategoriesFootprintsType,
+  Participant,
+  PointsFortsFaiblesType,
 } from '@/types/groups'
 import type { DottedName } from '@abc-transitionbascarbone/tilt-simple-test-model'
 import { useGetGroupAndUserFootprints } from './useGetGroupAndUserFootprints'

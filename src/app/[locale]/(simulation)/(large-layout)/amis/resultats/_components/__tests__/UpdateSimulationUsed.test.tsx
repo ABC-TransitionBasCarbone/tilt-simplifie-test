@@ -117,11 +117,11 @@ describe('UpdateSimulationUsed', () => {
     const { updateGroupParticipant } = await import(
       '@/services/groups/updateGroupParticipant'
     )
-      ; (updateGroupParticipant as any).mockResolvedValue({
-        data: {
-          success: true,
-        },
-      })
+    ;(updateGroupParticipant as any).mockResolvedValue({
+      data: {
+        success: true,
+      },
+    })
 
     // When
     renderWithWrapper(<UpdateSimulationUsed {...mockProps} />, {
@@ -146,9 +146,9 @@ describe('UpdateSimulationUsed', () => {
     const { updateGroupParticipant } = await import(
       '@/services/groups/updateGroupParticipant'
     )
-      ; (updateGroupParticipant as any).mockRejectedValue(
-        new Error('Update failed')
-      )
+    ;(updateGroupParticipant as any).mockRejectedValue(
+      new Error('Update failed')
+    )
 
     // When
     renderWithWrapper(<UpdateSimulationUsed {...mockProps} />, {

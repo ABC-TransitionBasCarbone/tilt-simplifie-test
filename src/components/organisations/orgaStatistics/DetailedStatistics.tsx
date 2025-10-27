@@ -7,7 +7,10 @@ import { captureClickFunFactsPlus } from '@/constants/tracking/posthogTrackers'
 import Button from '@/design-system/buttons/Button'
 import type { Entries } from '@/publicodes-state/types'
 import { trackEvent, trackPosthogEvent } from '@/utils/analytics/trackEvent'
-import type { DottedName, FunFacts } from '@abc-transitionbascarbone/tilt-simple-test-model'
+import type {
+  DottedName,
+  FunFacts,
+} from '@abc-transitionbascarbone/tilt-simple-test-model'
 import importedFunFacts from '@abc-transitionbascarbone/tilt-simple-test-model/public/funFactsRules.json'
 import { utils } from 'publicodes'
 import { useState } from 'react'

@@ -3,9 +3,9 @@
 import getNamespace from '@/publicodes-state/helpers/getNamespace'
 import type { FormattedSuggestion } from '@/publicodes-state/types'
 import type {
-    DottedName,
-    NGCRuleNode,
-    Suggestions,
+  DottedName,
+  NGCRuleNode,
+  Suggestions,
 } from '@abc-transitionbascarbone/tilt-simple-test-model'
 import { useMemo } from 'react'
 

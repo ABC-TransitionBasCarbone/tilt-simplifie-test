@@ -3,9 +3,9 @@
 import { generateSimulation } from '@/helpers/simulation/generateSimulation'
 import { safeLocalStorage } from '@/utils/browser/safeLocalStorage'
 import type {
-    DottedName,
-    ExtendedSituation,
-    NodeValue,
+  DottedName,
+  ExtendedSituation,
+  NodeValue,
 } from '@abc-transitionbascarbone/tilt-simple-test-model'
 import type { Migration } from '@publicodes/tools/migration'
 import type { Dispatch, SetStateAction } from 'react'

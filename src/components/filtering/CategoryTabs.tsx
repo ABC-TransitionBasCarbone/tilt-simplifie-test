@@ -74,7 +74,7 @@ export default function CategoryTabs({
     }
 
     setActiveTabIndex(newIndex)
-      ; (tabs[newIndex] as HTMLElement).focus()
+    ;(tabs[newIndex] as HTMLElement).focus()
   }
 
   return (

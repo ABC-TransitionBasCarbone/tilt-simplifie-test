@@ -31,4 +31,3 @@ const FAQ = Object.fromEntries(
 )
 
 export { FAQ, UI, localesDir, rulesTranslation, staticAnalysisFrRes }
-

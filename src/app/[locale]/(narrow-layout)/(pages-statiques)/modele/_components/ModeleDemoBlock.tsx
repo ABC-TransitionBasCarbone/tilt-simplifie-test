@@ -30,11 +30,11 @@ export default function ModeleDemoBlock() {
     () =>
       rules
         ? new Engine<DottedName>(rules, {
-          strict: {
-            situation: false,
-            noOrphanRule: false,
-          },
-        })
+            strict: {
+              situation: false,
+              noOrphanRule: false,
+            },
+          })
         : null,
     [rules]
   )

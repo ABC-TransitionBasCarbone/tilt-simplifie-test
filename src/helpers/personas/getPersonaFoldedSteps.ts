@@ -1,5 +1,8 @@
 import type { Engine, Entries, Situation } from '@/publicodes-state/types'
-import type { DottedName, NGCRuleNode } from '@abc-transitionbascarbone/tilt-simple-test-model'
+import type {
+  DottedName,
+  NGCRuleNode,
+} from '@abc-transitionbascarbone/tilt-simple-test-model'
 import type { EvaluatedNode, PublicodesExpression } from 'publicodes'
 import { fixSituationWithPartialMosaic } from './fixSituationWithPartialMosaic'
 

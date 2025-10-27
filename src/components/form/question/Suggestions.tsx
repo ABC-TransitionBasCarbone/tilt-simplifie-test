@@ -15,7 +15,10 @@ import {
 import { useFormState, useRule } from '@/publicodes-state'
 import { trackEvent, trackPosthogEvent } from '@/utils/analytics/trackEvent'
 import { capitalizeString } from '@/utils/capitalizeString'
-import type { DottedName, NodeValue } from '@abc-transitionbascarbone/tilt-simple-test-model'
+import type {
+  DottedName,
+  NodeValue,
+} from '@abc-transitionbascarbone/tilt-simple-test-model'
 import { twMerge } from 'tailwind-merge'
 
 type Props = {

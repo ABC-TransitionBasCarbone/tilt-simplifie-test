@@ -1,7 +1,10 @@
 'use client'
 
 import useEngine from '@/publicodes-state/hooks/useEngine/useEngine'
-import type { DottedName, NGCRuleNode } from '@abc-transitionbascarbone/tilt-simple-test-model'
+import type {
+  DottedName,
+  NGCRuleNode,
+} from '@abc-transitionbascarbone/tilt-simple-test-model'
 import { useMemo } from 'react'
 type Props = {
   rule: NGCRuleNode | undefined

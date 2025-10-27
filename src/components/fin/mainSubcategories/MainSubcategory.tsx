@@ -59,10 +59,10 @@ export default function MainSubcategory({
       aria-label={
         isLink
           ? t(
-            'results.mainSubcategories.mainSubcategory.seeDetail',
-            '{{title}}, voir le détail ci-dessous',
-            { title }
-          )
+              'results.mainSubcategories.mainSubcategory.seeDetail',
+              '{{title}}, voir le détail ci-dessous',
+              { title }
+            )
           : ''
       }>
       <div

@@ -31,20 +31,20 @@ export default function Actions({ subcategory, noNumberedFootprint }: Props) {
 
   const sortedActions = noNumberedFootprint
     ? filteredActions.sort((a: string) => {
-      if (a.includes('voter')) {
-        return -1
-      }
-      return 1
-    })
+        if (a.includes('voter')) {
+          return -1
+        }
+        return 1
+      })
     : filteredActions
-      .map((action) => ({
-        dottedName: action,
-        value: getValue(action) as number,
-      }))
-      .sort((a: ActionObject, b: ActionObject) =>
-        a.value > b.value ? -1 : 1
-      )
-      .map((actionObject: ActionObject) => actionObject.dottedName)
+        .map((action) => ({
+          dottedName: action,
+          value: getValue(action) as number,
+        }))
+        .sort((a: ActionObject, b: ActionObject) =>
+          a.value > b.value ? -1 : 1
+        )
+        .map((actionObject: ActionObject) => actionObject.dottedName)
 
   const firstThreeActions = sortedActions.slice(0, 3)
 

@@ -56,8 +56,8 @@ export default function JourneysInput({
       (accumulator, currentValue) =>
         accumulator +
         currentValue.distance *
-        currentValue.reccurrence *
-        periods[currentValue.period],
+          currentValue.reccurrence *
+          periods[currentValue.period],
       0
     )
     const roundedTotal = roundFloat(rawTotal)
@@ -73,9 +73,9 @@ export default function JourneysInput({
           (accumulator, currentValue) =>
             accumulator +
             currentValue.passengers *
-            currentValue.distance *
-            currentValue.reccurrence *
-            periods[currentValue.period],
+              currentValue.distance *
+              currentValue.reccurrence *
+              periods[currentValue.period],
           0
         ) / total
       const roundedAveragePassengers = roundFloat(rawAveragePassengers)

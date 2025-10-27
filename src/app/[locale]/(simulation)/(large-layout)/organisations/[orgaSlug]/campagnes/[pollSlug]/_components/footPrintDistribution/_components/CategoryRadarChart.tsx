@@ -50,7 +50,7 @@ export default function CategoryRadarChart({
   const maxValue =
     Math.ceil(
       Math.max(...Object.values(userValues), ...Object.values(averageValues)) /
-      5
+        5
     ) + 5
 
   const data = Object.keys(userValues).map((key) => {

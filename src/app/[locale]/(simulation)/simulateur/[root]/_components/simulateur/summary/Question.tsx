@@ -61,7 +61,7 @@ export default function Question({
         status === 'missing' ? '' : getBorderColor(category),
         isDisabled && 'border-gray-300! bg-[#F3F3F3] text-gray-800',
         status === 'current' &&
-        `${getBackgroundDarkColor(category)} text-white!`
+          `${getBackgroundDarkColor(category)} text-white!`
       )}
       onClick={() => {
         if (isDisabled) return

@@ -39,13 +39,13 @@ export async function generateMetadata({
     title:
       rule && ruleName
         ? // Dynamic title for each documentation page
-        t('Documentation, de la règle : {{ruleTitle}} - Nos Gestes Climat', {
-          ruleTitle: capitalizeString(
-            getRuleTitle({ ...rule, dottedName: ruleName })
-          ),
-        })
+          t('Documentation, de la règle : {{ruleTitle}} - Nos Gestes Climat', {
+            ruleTitle: capitalizeString(
+              getRuleTitle({ ...rule, dottedName: ruleName })
+            ),
+          })
         : // Fallback title
-        t('Documentation, règle du calculateur - Nos Gestes Climat'),
+          t('Documentation, règle du calculateur - Nos Gestes Climat'),
     description: t(
       'Notre documentation détaille les calculs qui nous ont permis de calculer votre bilan carbone personnel.'
     ),

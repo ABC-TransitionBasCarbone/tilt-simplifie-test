@@ -32,9 +32,9 @@ export default function Mosaic({
 
   const [isMoreOptionsVisible, setIsMoreOptionsVisible] = useState(
     isSecondaryQuestionsOfMosaicNotEmpty &&
-    secondaryQuestionsOfMosaic.some(
-      (secondaryMosaicChild) => getValue(secondaryMosaicChild) === true
-    )
+      secondaryQuestionsOfMosaic.some(
+        (secondaryMosaicChild) => getValue(secondaryMosaicChild) === true
+      )
   )
   const { t } = useClientTranslation()
 
@@ -53,19 +53,19 @@ export default function Mosaic({
 
         {questionsOfMosaic
           ? questionsOfMosaic.map((questionOfMosaic, index) => (
-            <MosaicQuestion
-              key={questionOfMosaic}
-              parentMosaic={question}
-              question={questionOfMosaic}
-              index={index}
-              firstInputId={firstInputId}
-              {...props}
-            />
-          ))
+              <MosaicQuestion
+                key={questionOfMosaic}
+                parentMosaic={question}
+                question={questionOfMosaic}
+                index={index}
+                firstInputId={firstInputId}
+                {...props}
+              />
+            ))
           : t(
-            'simulator.mosaic.noChildren',
-            "Cette mosaique n'a pas d'enfants."
-          )}
+              'simulator.mosaic.noChildren',
+              "Cette mosaique n'a pas d'enfants."
+            )}
       </fieldset>
 
       {isSecondaryQuestionsOfMosaicNotEmpty && (

@@ -1,4 +1,7 @@
-import type { DottedName, NGCRuleNode } from '@abc-transitionbascarbone/tilt-simple-test-model'
+import type {
+  DottedName,
+  NGCRuleNode,
+} from '@abc-transitionbascarbone/tilt-simple-test-model'
 import type { EvaluatedNode } from 'publicodes'
 
 type Props = {

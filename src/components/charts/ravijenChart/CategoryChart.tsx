@@ -54,11 +54,13 @@ export default function CategoryChart({
 
   return (
     <div
-      className={`flex h-full ${isInverted ? 'flex-col-reverse' : 'flex-col'
-        } justify-end gap-[4px]`}>
+      className={`flex h-full ${
+        isInverted ? 'flex-col-reverse' : 'flex-col'
+      } justify-end gap-[4px]`}>
       <div
-        className={`flex h-[calc(100%-7rem)] ${isInverted ? 'flex-col-reverse' : 'flex-col'
-          } justify-end gap-[1px]`}>
+        className={`flex h-[calc(100%-7rem)] ${
+          isInverted ? 'flex-col-reverse' : 'flex-col'
+        } justify-end gap-[1px]`}>
         {sortedSubcategories?.map((subcategory, index: number) => {
           return (
             <SubcategoryChartBlock

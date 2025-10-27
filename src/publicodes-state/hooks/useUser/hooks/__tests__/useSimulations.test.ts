@@ -1,7 +1,7 @@
 import { generateSimulation } from '@/helpers/simulation/generateSimulation'
 import type {
-    DottedName,
-    ExtendedSituation,
+  DottedName,
+  ExtendedSituation,
 } from '@abc-transitionbascarbone/tilt-simple-test-model'
 import type { Migration } from '@publicodes/tools/migration'
 import { act, renderHook } from '@testing-library/react'

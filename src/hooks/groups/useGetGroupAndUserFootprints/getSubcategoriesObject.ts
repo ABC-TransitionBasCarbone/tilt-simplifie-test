@@ -1,6 +1,6 @@
 import type {
-    ComputedResultsSubcategories,
-    Simulation,
+  ComputedResultsSubcategories,
+  Simulation,
 } from '@/publicodes-state/types'
 import type { ValueObject } from '@/types/groups'
 import type { DottedName } from '@abc-transitionbascarbone/tilt-simple-test-model'

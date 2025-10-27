@@ -9,7 +9,10 @@ import {
   getTextDarkColor,
 } from '@/helpers/getCategoryColorClass'
 import { useEngine } from '@/publicodes-state'
-import type { DottedName, NGCRule } from '@abc-transitionbascarbone/tilt-simple-test-model'
+import type {
+  DottedName,
+  NGCRule,
+} from '@abc-transitionbascarbone/tilt-simple-test-model'
 import Markdown from 'markdown-to-jsx'
 import { utils } from 'publicodes'
 

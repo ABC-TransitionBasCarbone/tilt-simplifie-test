@@ -164,7 +164,7 @@ const TestWrapper = ({
 
   return (
     <>
-      {providers.prNumber && <PRNumberHook setPRNumber={() => { }} />}
+      {providers.prNumber && <PRNumberHook setPRNumber={() => {}} />}
       {wrapped}
     </>
   )

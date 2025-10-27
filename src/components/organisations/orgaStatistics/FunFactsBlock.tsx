@@ -1,6 +1,9 @@
 'use client'
 
-import type { DottedName, FunFacts } from '@abc-transitionbascarbone/tilt-simple-test-model'
+import type {
+  DottedName,
+  FunFacts,
+} from '@abc-transitionbascarbone/tilt-simple-test-model'
 import { twMerge } from 'tailwind-merge'
 import FunFactsItem from './funFacts/FunFactsItem'
 
